@@ -130,6 +130,8 @@ def main():
     # print("总页数:"+img_max)
     for i in range(1, int(img_max) + 1):
         # 获取每页的URL地址
+        if i == nNum:
+            return
         if i == 1:
             page = mziTu
         else:
