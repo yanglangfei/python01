@@ -1,4 +1,3 @@
-import itchat
+from wxpy import *
 
-itchat.auto_login(hotReload=True)
-itchat.send("您好,Python!", toUserName="filehelper")
+bot = Bot()
