@@ -2,6 +2,8 @@ import json
 import re
 import requests
 import threading
+import time
+import random
 
 
 def parse_live_list(content):
@@ -78,3 +80,4 @@ if __name__ == '__main__':
               "}&pagesize=20" \
               "&jsonp=jsonp&time_from=20190731&time_to=20190807&keyword=古风".format(str(i))
         Bilibili(url, i).start()
+        time.sleep(random.randint(1, 3))
