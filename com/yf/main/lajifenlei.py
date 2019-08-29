@@ -31,6 +31,5 @@ if code == 200:
         print(i['contain'])
         print(i['tip'])
         print('\n')
-
 else:
     print('查询失败')
