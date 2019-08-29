@@ -49,6 +49,13 @@ class Bilibili(threading.Thread):
                           'Chrome/69.0.3497.100 Safari/537.36',
         }
 
+        self.proxies = {
+            "http": "http://182.35.86.159:9999",
+            "http": "http://163.204.243.171:9999",
+            "http": "http://222.89.32.155:9999",
+            "http": "http://121.237.114.92:3128"
+        }
+
     def get_live_list(self):
         return requests.get(self.url, headers=self.getHtmlHeaders).json()
 
