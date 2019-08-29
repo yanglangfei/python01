@@ -1,6 +1,6 @@
 import requests
 # https://sffc.sh-service.com/wx_miniprogram/sites/feiguan/trashTypes_2/Handler/Handler.ashx?a=GET_KEYWORDS&kw=电池
-
+# https://www.kancloud.cn/xika1024/lajiflw/1197404
 url2 = 'https://quark.sm.cn/api/quark_sug?q=干电池是什么垃圾'
 url = 'https://laji.lr3800.com/api.php'
 name = input("请输入垃圾名称:")
